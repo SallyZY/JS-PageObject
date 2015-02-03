@@ -18,8 +18,7 @@ var testAmazonWrapper = function(){
     this.Then(/^I should see the book "([^"]*)" in search result$/, function(book,next) {
     	
         next();
-    });
-	
+    });	
 };
 
 module.exports = testAmazonWrapper;
